@@ -6390,6 +6390,7 @@ def tableroJuego():
 
                     else:
                         texto(900,45,MINIJUEGOS_NAME[GAMEBOARD[Player1.getI()][Player1.getJ()]],50,BLANCO)
+                        pygame.display.update()
                         pygame.time.wait(3000)
                         minijuego(Player1.getI(),Player1.getJ(),1)
                         changeTurno()
@@ -6419,6 +6420,7 @@ def tableroJuego():
 
                     else:
                         texto(900,45,MINIJUEGOS_NAME[GAMEBOARD[Player2.getI()][Player2.getJ()]],50,BLANCO)
+                        pygame.display.update()
                         pygame.time.wait(3000)
                         minijuego(Player2.getI(),Player2.getJ(),2)
                         changeTurno()
@@ -6447,6 +6449,7 @@ def tableroJuego():
 
                     else:
                         texto(900,45,MINIJUEGOS_NAME[GAMEBOARD[Player3.getI()][Player3.getJ()]],50,BLANCO)
+                        pygame.display.update()
                         pygame.time.wait(3000)
                         minijuego(Player3.getI(),Player3.getJ(),3)
                         changeTurno()
@@ -6476,6 +6479,7 @@ def tableroJuego():
 
                     else:
                         texto(900,45,MINIJUEGOS_NAME[GAMEBOARD[Player4.getI()][Player4.getJ()]],50,BLANCO)
+                        pygame.display.update()
                         pygame.time.wait(3000)
                         minijuego(Player4.getI(),Player4.getJ(),4)
                         changeTurno()
